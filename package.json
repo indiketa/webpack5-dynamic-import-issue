@@ -1,0 +1,15 @@
+{
+    "name": "test_webpack5",
+    "version": "1.0.0",
+    "contributors": [],
+    "dependencies": {},
+    "devDependencies": {
+        "html-webpack-plugin": "^5.5",
+        "webpack": "^5",
+        "webpack-cli": "^4"
+    },
+    "scripts": {
+        "devmode-watch": "webpack --mode development --watch",
+        "build": "webpack --mode production"
+    }
+}
